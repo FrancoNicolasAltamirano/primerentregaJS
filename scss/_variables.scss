@@ -1,0 +1,22 @@
+/*VARIABLES*/
+$color-principal:#7776BC ;
+
+$colorsecundario:#CDC7E5 ;
+
+$colorblanco: #fafafa ;
+
+/*UTILIZADO EN _SALE*/
+@mixin textocentrado() {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: solid;
+    text-align: center;
+    width: 700px;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+@mixin divcentrado(){
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+/*HEADER*/
+
+.logo {
+    width: 150px;
+  }
+  
+  .encabezado {
+    background-color: #F8F8F8;
+    border-top: 20px solid #CDC7E5;
+  }
+  
+  .menunav a {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 1rem;
+    border-right: 0.5px solid #CDC7E5;
+    border-left: 0.5px solid #CDC7E5;
+    cursor: pointer;
+    padding: 0;
+  
+    &:hover {
+      background-color: #CDC7E5;
+      color: #fafafa;
+    }
+  }
+  

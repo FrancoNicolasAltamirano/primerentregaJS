@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab:wght@100 & family= Roboto:wght@100;300 & display=swap');
+
+@media (max-width:1023px){ 
+    h2{
+        font-size: 2rem;
+    } 
+@media (max-width:320px)
+h2 {font-size:1rem;}
+
+@media (min-width:768px)
+
+h2 {font-size: 1.4rem;}
+
+}
+
+
+body{
+    font-family:  'Roboto', sans-serif;
+}
+
+
+
+.carrousel{
+    margin-top: 0px;
+}
+
+.productos{
+    background-color: #CDC7E5;
+    color: #fafafa;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.productos h2{
+    font-size: 4rem;
+    padding: 6px;
+    
+}
+
+.btnAustral{
+    background-color: #7776BC;
+    color: #fafafa;
+}
+
+.btnAustral :hover{
+    background-color: #7776BC;
+    color: #fafafa;
+}
+
+.imagenes{
+   filter: 10s;
+}
+
+.imagenes :hover{
+    
+    cursor: pointer;
+opacity: 0.7;
+transform: scale(1.05);
+transform: rotate(-1.2deg) scale(1.05);
+transition: 0.6s ease-out;
+filter: grayscale();
+}
+
+.card{
+    border: none;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+    box-shadow: #7776BC 5px 4px 9px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.galeria{
+    margin-top:40px;
+}
+
+.whatsapp{
+
+    width: 90px;
+    border-radius: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+.accesorioscontenedor{
+    display: flex;
+    max-width: 100vw;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient((rgb(0, 0, 0)),(grey));
+    
+    }
+    
+    .accesorioscontenedor img {
+    
+        width: 450px;
+        height: 220px;
+        object-fit: cover;
+        object-position: center;
+        padding: 6px;
+    }
+    
+    .accesorioscontenedor img:hover {
+    
+        cursor: pointer;
+        opacity: 0.7;
+        transform: scale(1.05);
+        transform: rotate(-1.2deg) scale(1.05);
+        transition: 0.6s ease-out;
+        filter: grayscale();
+    }
+
+    .ropasection{
+        display: flex;
+        width: 600px;
+        height: 550px;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 680px;
+        margin-top: 110px;
+        box-shadow:  -1px 6px 0px rgb(128, 130, 133), 4px 4px 16px 2px rgb(128, 130, 133);
+    
+    
+    }
+    
+    .thenorteface{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 8;
+        transition: 0.5s;
+    }
+    .wanf{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 8;
+        transition: 0.5s;
+    }
+    .drew{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 8;
+        transition: 0.5s;
+    }
+    .nude{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 8;
+        transition: 0.5s;
+    }
+    .supreme{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 8;
+        transition: 0.5s;
+    }
+    .nikeropa{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 8;
+        transition: 0.5s;
+    }
+    
+    
+    .ropasection img:hover{
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+    
+    .textoropa{
+        
+        margin-top: 110px;
+        text-size-adjust: 12;
+        color: rgb(53, 53, 52);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;  
+        text-align: center;
+        text-justify: inter-word;
+    }
+    
+    .h1ropa{
+        text-align: center;
+        text-size-adjust: 12;
+        color: rgb(53, 53, 52);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 30px;
+    }
+
+    .bannersale{
+        position: center ;
+        box-shadow: -1px -1px 6px 0 rgb(10, 10, 10), 4px 4px 16px 2px rgb(7, 7, 7);
+        width: 100%;
+        margin-top: 60px;
+        image-rendering: auto;
+    }
+    
+    .parrafosale{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px; 
+        text-align: center ;
+        font-weight: bold;
+        margin-top: 40px;
+    
+    }
+    
+    .imagenessale{
+        display: flex;
+        max-width: 100vw;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: linear-gradient((rgb(0, 0, 0)),(grey));
+    
+    }
+    
+    .imagenessale img{
+        width: 450px;
+        height: 220px;
+        object-fit: cover;
+        object-position: center;
+        padding: 6px;
+    }
+    
+    .mid{
+        text-align: center;
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .imagenessale img:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: 0.6s ease-out;
+        opacity: 0.7;
+    
+    }
+    
+    .imagenreciclar{
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    margin-top: 40px;
+    }
+    .h2reciclar{
+                text-align: center;
+                font-size: 30px;
+                font-weight: bold;
+                font-style: italic;
+                text-decoration: solid;
+                text-decoration: inherit;
+                margin-top: 90px;
+    
+    }
+    
+    .reciclar{
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+    
+    }
+    
+    .imagenreciclar2{
+                    display: flex;
+                    
+                    margin-left: 90px;
+    }
+    
+    .textreciclar{
+            display: flex;
+            width: 120px;
+            height: 120px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: solid;
+            
+            
+            
+    
+    }
+    .divreciclar{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .textreciclar3{
+        font-size: 18px;   
+        font-weight: bold;
+        text-decoration: solid;
+        text-align:center;
+        width: 700px;
+        margin-top: 40px;
+        line-height: 30px
+       
+    }
+    .divreciclar2{ display: flex;
+        justify-content: center;
+    
+    }
+    
+    .textreciclar4{
+        font-size: 18px;   
+        font-weight: bold;
+        text-decoration: solid;
+        text-align:center;
+        width: 700px;
+        margin-top: 40px;
+        line-height: 30px;
+    }
+    
+    .divreciclar{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .listareciclar{
+        font-size: 18px;   
+        font-weight: bold;
+        text-decoration: solid;
+        text-align:center;
+        width: 700px;
+        margin-top: 40px;
+        line-height: 30px;
+        
+    
+    }
+
+    .contenedorzapas1{
+        display: flex;
+        flex-direction: row;
+        margin: 100px;
+        justify-content: center;
+    
+    }
+    
+    .adidas{
+      height: 300px;  
+      width: 320px;
+      margin-right: 150px;
+      
+     }
+     
+    
+      .nike{
+        height: 300px; 
+        width: 320px;
+        
+     }
+     
+     .newbalance{
+         height: 300px;
+        width: 320px;
+        margin-left: 150px;
+     }
+    
+     .contenedorzapas2{
+        display: flex;
+        flex-direction: row;
+        margin: 100px;
+        justify-content: center;
+    
+    }
+    
+     
+     .converse{
+     
+         height: 300px;
+        width: 320px;
+        margin-right: 150px;
+    
+     }
+    
+     .vans{
+        height: 300px;
+        width: 320px;
+     }
+    
+     .reebok{
+        height: 300px;
+        width: 320px;
+        margin-left: 150px;
+     }
+    
+    .adidasoficial{
+        color: black;
+        text-decoration: none;
+        font-size: 14;
+        font-weight: bold;
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+     
+    
+    .nikeoficial{
+        color: black;
+        text-decoration: none;
+        font-size: 14;
+        font-weight: bold;
+        position: absolute;
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+    
+    .newbalanceoficial{
+        color: black;
+        text-decoration: none;
+        font-size: 14;
+        font-weight: bold;
+        position: absolute;
+        margin-left: 250px;
+        margin-top: 10px;
+    }
+    
+    .converseoficial{
+        color: black;
+        text-decoration: none;
+        font-size: 14;
+        font-weight: bold;
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+    
+    .vansoficial{
+        color: black;
+        text-decoration: none;
+        font-size: 14;
+        font-weight: bold;
+        position: absolute;
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+    
+    .reebokoficial{
+        color: black;
+        text-decoration: none;
+        font-size: 14;
+        font-weight: bold;
+        position: absolute;
+        margin-left: 260px;
+        margin-top: 10px;
+    }
+    

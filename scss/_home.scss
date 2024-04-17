@@ -1,0 +1,65 @@
+/*HOME*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .carrousel {
+    margin-top: 0px;
+  }
+  
+  .productos {
+    background-color: $colorsecundario;
+    color: $colorblanco;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  
+    h2 {
+      font-size: 4rem;
+      padding: 6px;
+    }
+  }
+  
+  .btnAustral {
+    background-color: $color-principal;
+    color: $colorblanco;
+  
+    :hover {
+      background-color: $color-principal;
+      color: $colorblanco;
+    }
+  }
+  
+  .imagenes {
+    filter: 10s;
+  
+    :hover {
+      cursor: pointer;
+      opacity: 0.7;
+      transform: scale(1.05);
+      transform: rotate(-1.2deg) scale(1.05);
+      transition: 0.6s ease-out;
+      filter: grayscale(2);
+    }
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-weight: bold;
+    box-shadow: $color-principal 5px 4px 9px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  
+  .galeria {
+    margin-top: 40px;
+  }
+  
